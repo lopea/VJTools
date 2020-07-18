@@ -85,11 +85,14 @@ namespace Lopea.VJ.Core
                     break;
                 case AudioInputSource.Unity:
                     print("Lmao not yet.");
-                    //TODO: make this shit work
+                    //FIXME: make this shit work lol
                     break;
             }
+
+            //setup the audio handler
             _handler.Initialize(size);
 
+            
             print("Audio Handler Initialized.");
             print("Using type: " + source.ToString() + " with FFT size of: " + (int)size);
         }
