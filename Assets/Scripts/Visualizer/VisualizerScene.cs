@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-
-public class VisualizerScene : MonoBehaviour
-{}
+namespace Lopea.VJ.Core
+{
+    public class VisualizerScene : MonoBehaviour
+    { }
+}
